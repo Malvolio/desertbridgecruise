@@ -24,7 +24,7 @@ const experienceItems: ExperienceItem[] = [
   {
     title: "Morning Instruction",
     description:
-      "Expert-led sessions designed for beginners with an appreciation for precision and strategy.",
+      "Expert-led sessions designed for advancing/intermediate players with an appreciation for precision and strategy.",
     icon: (
       <svg
         viewBox="0 0 64 64"
@@ -112,6 +112,32 @@ const experienceItems: ExperienceItem[] = [
       </svg>
     ),
   },
+  {
+    title: "Fireside Chat",
+    description:
+      "Informal conversations with internationally recognized bridge expert",
+    icon: (
+      <svg
+        viewBox="0 0 64 64"
+        className="h-12 w-12 text-umber"
+        aria-hidden="true"
+      >
+        <path
+          d="M18 18v12c0 4 2.7 7.4 6.4 8.5V46H22v3h16v-3h-2.4v-7.5c3.7-1.1 6.4-4.5 6.4-8.5V18"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2.2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M18 25h24M44 18v31M51 18h-2.7c-1.4 0-2.3 1.1-2.3 2.5v7.2c0 2.4 1.6 4.4 3.8 5.1V49h3V18h-1.8Z"
+          fill="currentColor"
+          opacity="0.16"
+        />
+      </svg>
+    ),
+  },
 ];
 
 const settingHighlights: HighlightItem[] = [
@@ -139,7 +165,7 @@ const settingHighlights: HighlightItem[] = [
 
 const audiencePoints = [
   "Intimate, thoughtfully curated group size",
-  "Emphasis on conversation, connection, and shared learning",
+  "Emphasis on shared learning, connection, and conversation about the game",
 ];
 
 const SectionHeading = ({ title }: { title: string }) => (
@@ -250,8 +276,8 @@ const HomePage = () => {
           <div className="animate-fade-up">
             <SectionHeading title="Who It’s For" />
             <p className="max-w-2xl text-2xl leading-10 text-umber/82">
-              Designed for discerning advancing/intermediate seeking both
-              intellectual engagement and social refinement.
+              Designed for discerning advancing/intermediate players seeking
+              both intellectual engagement and bridge skill-building.
             </p>
             <div className="mt-8 max-w-xl">
               <BulletList items={audiencePoints} />
@@ -307,8 +333,8 @@ const HomePage = () => {
       >
         <div className="mx-auto max-w-4xl rounded-[2.5rem] border border-white/40 bg-white/20 px-6 py-14 shadow-frame backdrop-blur-sm md:px-12">
           <p className="font-display text-3xl italic leading-relaxed text-umber md:text-5xl">
-            Join us for an experience that blends intellect, leisure, and
-            understated luxury.
+            Join us for an experience that blends learning, intellect, and camaraderie in an
+            environment of understated luxury.
           </p>
           <div className="mt-10">
             <a
