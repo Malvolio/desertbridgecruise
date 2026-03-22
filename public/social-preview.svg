@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Desert Bridge Cruise social preview">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8d7a3" />
+      <stop offset="42%" stop-color="#efbc78" />
+      <stop offset="100%" stop-color="#8C6341" />
+    </linearGradient>
+    <linearGradient id="fade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3E2F1C" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#3E2F1C" stop-opacity="0.7" />
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="14%" r="45%">
+      <stop offset="0%" stop-color="#fff8e7" stop-opacity="0.88" />
+      <stop offset="100%" stop-color="#fff8e7" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)" />
+  <rect width="1200" height="630" fill="url(#sun)" />
+  <path d="M0 330C155 280 286 262 399 280c143 22 227 74 351 64 119-10 244-72 450-89v375H0V330Z" fill="#6C4A2D" opacity="0.34" />
+  <path d="M0 374c168-70 302-81 442-45 125 32 245 36 371-10 129-46 240-65 387-51v362H0V374Z" fill="#5A3D25" opacity="0.48" />
+  <path d="M0 456c142-18 251-6 390 31 139 36 310 48 470 28 111-13 226-40 340-68v183H0V456Z" fill="#3E2F1C" opacity="0.95" />
+  <g fill="#3E2F1C" opacity="0.9">
+    <path d="M115 468h16v-96h-16v96Zm8-109c26 0 49 18 49 42H74c0-24 23-42 49-42Z" />
+    <path d="M210 492h12v-68h-12v68Zm6-78c19 0 36 14 36 31h-72c0-17 17-31 36-31Z" />
+    <path d="M1030 486h14v-82h-14v82Zm7-94c22 0 42 15 42 36h-84c0-21 20-36 42-36Z" />
+  </g>
+  <rect width="1200" height="630" fill="url(#fade)" />
+  <line x1="265" y1="198" x2="935" y2="198" stroke="#f6e8cc" stroke-opacity="0.68" stroke-width="2" />
+  <text x="600" y="155" text-anchor="middle" fill="#fff7e8" font-size="72" font-family="Didot, Bodoni MT, serif" font-weight="500">
+    Desert Bridge Cruise
+  </text>
+  <text x="600" y="262" text-anchor="middle" fill="#fcefd8" font-size="34" font-family="Didot, Bodoni MT, serif" font-style="italic">
+    A refined introduction to the art and pleasure of bridge
+  </text>
+  <text x="600" y="330" text-anchor="middle" fill="#fff2df" font-size="28" font-family="Avenir Next, Helvetica, Arial, sans-serif">
+    Three days of learning, play, and elegant social connection in Palm Desert
+  </text>
+</svg>

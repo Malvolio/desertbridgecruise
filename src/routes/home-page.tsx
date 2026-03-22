@@ -291,9 +291,6 @@ const HomePage = () => {
               Privacy
             </a>
           </div>
-          <div className="flex items-center gap-5 text-sm text-umber/55">
-            Desert Bridge Cruise is a product of Beckmann Lorton Overdrive
-          </div>
         </div>
       </footer>
     </main>
