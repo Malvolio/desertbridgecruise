@@ -332,7 +332,7 @@ const HomePage = () => {
           <div className="flex flex-col items-center gap-3 text-sm uppercase tracking-[0.22em] text-umber/65 md:flex-row md:gap-8">
             <a
               className="transition hover:text-umber"
-              href="mailto:info@desertbridgecruises.com"
+              href="mailto:info@desertbridgecruise.com"
             >
               info@desertbridgecruise.com
             </a>
