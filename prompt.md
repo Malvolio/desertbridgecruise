@@ -6,7 +6,7 @@ We are building a front-end only website using the following technologies:
 * Tanstack Router
 
 
-The business’s core offering is a three-day bridge retreat in Palm Desert with morning classes, supervised play each afternoon, and elegant social events each evening. Target market: affluent beginners from Palm Springs and Palm Desert looking for a social, skill-building getaway. Now please generate a landing page for the marketing site for this business, with a refined, upscale feel. The color palette is warm desert tones—soft golds, sand, and deep brown accents. The header showcases a panoramic view of Palm Desert at sunset, with elegant typography introducing “Desert Bridge Cruises.”
+The business’s core offering is a three-day bridge retreat in Palm Desert with morning classes, supervised play each afternoon, and elegant social events each evening. Target market: affluent beginners from Palm Springs and Palm Desert looking for a social, skill-building getaway. Now please generate a landing page for the marketing site for this business, with a refined, upscale feel. The color palette is warm desert tones—soft golds, sand, and deep brown accents. The header showcases a panoramic view of Palm Desert at sunset, with elegant typography introducing “Desert Bridge Cruise.”
 
 
 Generate a refined, upscale landing page with the following structure and design:
@@ -27,7 +27,7 @@ Overlay: subtle dark gradient for readability.
 
 Centered text:
 
-* Title (large serif): *Desert Bridge Cruises*
+* Title (large serif): *Desert Bridge Cruise*
 * Subtitle: *A refined introduction to the art and pleasure of bridge*
 * Tagline: *Three days of learning, play, and elegant social connection in Palm Desert*
 
@@ -71,7 +71,7 @@ Full-width soft sand background with inset image (luxury Palm Desert venue).
 
 Text:
 
-* *Set in the serene beauty of Palm Desert, Desert Bridge Cruises offers a tranquil escape paired with elevated hospitality.*
+* *Set in the serene beauty of Palm Desert, Desert Bridge Cruise offers a tranquil escape paired with elevated hospitality.*
 * Short highlights:
 
   * Premium venue
@@ -101,7 +101,7 @@ Subtext:
 **Footer**
 Minimal:
 
-* Logo (Desert Bridge Cruises)
+* Logo (Desert Bridge Cruise)
 * Email contact
 * Location: Palm Desert, California
 * Small, understated links (Terms, Privacy)

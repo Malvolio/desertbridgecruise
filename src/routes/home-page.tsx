@@ -216,7 +216,7 @@ const HomePage = () => {
               Palm Desert, California
             </p>
             <h1 className="mt-5 font-display text-5xl font-medium tracking-tight text-[#fff7eb] drop-shadow-[0_10px_30px_rgba(0,0,0,0.25)] md:text-7xl lg:text-[5.7rem]">
-              Desert Bridge Cruises
+              Desert Bridge Cruise
             </h1>
             <div className="mx-auto mt-6 h-px w-44 bg-gradient-to-r from-transparent via-sand/80 to-transparent md:w-72" />
             <p className="mt-8 font-display text-2xl italic text-sand md:text-[2rem]">
@@ -271,7 +271,7 @@ const HomePage = () => {
           <div className="animate-fade-up">
             <SectionHeading title="The Setting" />
             <p className="max-w-xl text-2xl leading-10 text-umber/82">
-              Set in the serene beauty of Palm Desert, Desert Bridge Cruises
+              Set in the serene beauty of Palm Desert, Desert Bridge Cruise
               offers a tranquil escape paired with elevated hospitality.
             </p>
 
@@ -326,7 +326,7 @@ const HomePage = () => {
       <footer className="border-t border-umber/10 bg-[#f8eedc] px-6 py-10 md:px-10">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-5 text-center">
           <p className="font-display text-3xl text-umber">
-            Desert Bridge Cruises
+            Desert Bridge Cruise
           </p>
           <div className="h-px w-full max-w-4xl bg-umber/15" />
           <div className="flex flex-col items-center gap-3 text-sm uppercase tracking-[0.22em] text-umber/65 md:flex-row md:gap-8">
@@ -349,7 +349,7 @@ const HomePage = () => {
             </a>
           </div>
           <div className="flex items-center gap-5 text-sm text-umber/55">
-            Desert Bridge Cruises is a product of Beckmann Lorton Overdrive
+            Desert Bridge Cruise is a product of Beckmann Lorton Overdrive
           </div>
         </div>
       </footer>
