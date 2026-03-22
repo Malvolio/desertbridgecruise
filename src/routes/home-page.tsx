@@ -138,8 +138,6 @@ const settingHighlights: HighlightItem[] = [
 ];
 
 const audiencePoints = [
-  "No prior experience required",
-  "Ideal for professionals and retirees",
   "Intimate, thoughtfully curated group size",
   "Emphasis on conversation, connection, and shared learning",
 ];
@@ -222,6 +220,9 @@ const HomePage = () => {
             <p className="mt-8 font-display text-2xl italic text-sand md:text-[2rem]">
               A refined introduction to the art and pleasure of bridge
             </p>
+            <p className="mt-4 font-display text-3xl italic text-sand md:text-[2rem]">
+              for the bridge-curious.
+            </p>
             <p className="balanced-text mx-auto mt-6 max-w-[24ch] text-lg leading-8 text-[#f8ecda] md:max-w-[36ch] md:text-2xl md:leading-10">
               Three days of learning, play, and elegant social connection in
               Palm Desert
@@ -249,8 +250,8 @@ const HomePage = () => {
           <div className="animate-fade-up">
             <SectionHeading title="Who It’s For" />
             <p className="max-w-2xl text-2xl leading-10 text-umber/82">
-              Designed for discerning beginners seeking both intellectual
-              engagement and social refinement.
+              Designed for discerning advancing/intermediate seeking both
+              intellectual engagement and social refinement.
             </p>
             <div className="mt-8 max-w-xl">
               <BulletList items={audiencePoints} />
