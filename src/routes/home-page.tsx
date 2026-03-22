@@ -1,3 +1,4 @@
+import { BookOpen, Club, FlameKindling, Wine } from "lucide-react";
 import type { ReactElement } from "react";
 
 type ExperienceItem = {
@@ -26,28 +27,7 @@ const experienceItems: ExperienceItem[] = [
     description:
       "Expert-led sessions designed for advancing/intermediate players with an appreciation for precision and strategy.",
     icon: (
-      <svg
-        viewBox="0 0 64 64"
-        className="h-12 w-12 text-umber"
-        aria-hidden="true"
-      >
-        <path
-          d="M18 18.5c0-2 1.6-3.5 3.6-3.5h19.8c2 0 3.6 1.5 3.6 3.5v27c0 2-1.6 3.5-3.6 3.5H21.6A3.55 3.55 0 0 1 18 45.5v-27Z"
-          fill="currentColor"
-          opacity="0.16"
-        />
-        <path
-          d="m21 18 14 7v21l-14-7V18Zm22 0-14 7v21l14-7V18Z"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.2"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M32 29c1.8-3.5 5.7-2.7 5.7.3 0 2-1.7 3.2-3 4.3-1 .8-1.7 1.5-2.3 2.5-.6-1-1.3-1.7-2.3-2.5-1.3-1.1-3-2.3-3-4.3 0-3 3.9-3.8 5.7-.3Z"
-          fill="currentColor"
-        />
-      </svg>
+      <BookOpen/>
     ),
   },
   {
@@ -55,35 +35,7 @@ const experienceItems: ExperienceItem[] = [
     description:
       "Supervised games in a relaxed, supportive setting to build confidence and skill.",
     icon: (
-      <svg
-        viewBox="0 0 64 64"
-        className="h-12 w-12 text-umber"
-        aria-hidden="true"
-      >
-        <path
-          d="M18 44c0-9 6.6-15.5 15-17.5V44h-15Z"
-          fill="currentColor"
-          opacity="0.14"
-        />
-        <path
-          d="M18 44c0-9 6.6-15.5 15-17.5M46 44c0-9-6.6-15.5-15-17.5"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.2"
-          strokeLinecap="round"
-        />
-        <path
-          d="M25.7 24.5c.7-1.7 2.2-2.8 3.8-2.8 2.1 0 3.9 1.6 3.9 4 0 3.6-4.2 4.6-4.2 8 0-3.4-4.2-4.4-4.2-8 0-2.4 1.8-4 3.9-4 .3 0 .5 0 .8.1Z"
-          fill="currentColor"
-        />
-        <path
-          d="M41.4 22.3c2.4 0 4.3 2 4.3 4.4 0 3.2-3.1 4.6-6.2 7.2-3.1-2.6-6.2-4-6.2-7.2 0-2.4 1.9-4.4 4.3-4.4 1 0 2 .4 2.8 1.2.8-.8 1.8-1.2 3-1.2Z"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.2"
-          strokeLinejoin="round"
-        />
-      </svg>
+      <Club/>
     ),
   },
   {
@@ -91,51 +43,15 @@ const experienceItems: ExperienceItem[] = [
     description:
       "Curated dinners and gatherings with fellow participants in an elegant atmosphere.",
     icon: (
-      <svg
-        viewBox="0 0 64 64"
-        className="h-12 w-12 text-umber"
-        aria-hidden="true"
-      >
-        <path
-          d="M18 18v12c0 4 2.7 7.4 6.4 8.5V46H22v3h16v-3h-2.4v-7.5c3.7-1.1 6.4-4.5 6.4-8.5V18"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M18 25h24M44 18v31M51 18h-2.7c-1.4 0-2.3 1.1-2.3 2.5v7.2c0 2.4 1.6 4.4 3.8 5.1V49h3V18h-1.8Z"
-          fill="currentColor"
-          opacity="0.16"
-        />
-      </svg>
+      <Wine/>
     ),
   },
   {
     title: "Fireside Chat",
     description:
-      "Informal conversations with internationally recognized bridge expert",
+      "Informal conversations with an internationally recognized bridge expert",
     icon: (
-      <svg
-        viewBox="0 0 64 64"
-        className="h-12 w-12 text-umber"
-        aria-hidden="true"
-      >
-        <path
-          d="M18 18v12c0 4 2.7 7.4 6.4 8.5V46H22v3h16v-3h-2.4v-7.5c3.7-1.1 6.4-4.5 6.4-8.5V18"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M18 25h24M44 18v31M51 18h-2.7c-1.4 0-2.3 1.1-2.3 2.5v7.2c0 2.4 1.6 4.4 3.8 5.1V49h3V18h-1.8Z"
-          fill="currentColor"
-          opacity="0.16"
-        />
-      </svg>
+      <FlameKindling/>
     ),
   },
 ];
@@ -250,7 +166,7 @@ const HomePage = () => {
               for the bridge-curious.
             </p>
             <p className="balanced-text mx-auto mt-6 max-w-[24ch] text-lg leading-8 text-[#f8ecda] md:max-w-[36ch] md:text-2xl md:leading-10">
-              Three days of learning, play, and elegant social connection in
+              Two days of learning, card play, and bridge-centric social connection in
               Palm Desert
             </p>
             <div className="mt-12">
@@ -264,7 +180,7 @@ const HomePage = () => {
 
       <section className="relative mx-auto max-w-6xl px-6 py-24 md:px-10 md:py-28">
         <SectionHeading title="The Experience" />
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-4">
           {experienceItems.map((item) => (
             <ExperienceCard key={item.title} item={item} />
           ))}
